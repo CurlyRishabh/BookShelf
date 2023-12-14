@@ -6,9 +6,11 @@ export default function Cool() {
 	const {myValue, setMyValue} = useContext(Context);
 	return (
 		<>
-			<p className="bg-slate-600">Value from Context: {myValue}</p>
+			<p className="">Value from Context: {myValue}</p>
 			<div className="">Shelf</div>
-			<button onClick={() => setMyValue((prev) => prev + 1)}>Click</button>
+			<button className="h-12 bg-rose-600" onClick={() => setMyValue((prev) => prev + 1)}>
+				Click
+			</button>
 		</>
 	);
 }

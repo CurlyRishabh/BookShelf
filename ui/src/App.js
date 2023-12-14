@@ -15,9 +15,8 @@ function App() {
 		<BrowserRouter basename="/">
 			<MyProvider>
 				<Routes>
-					<MyProvider>
 						<Route path="/" element={<Shelf />}></Route>
-					</MyProvider>
+					
 				</Routes>
 			</MyProvider>
 		</BrowserRouter>
