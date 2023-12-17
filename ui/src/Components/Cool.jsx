@@ -9,7 +9,7 @@ export default function Cool() {
 			<p className="">Value from Context: {myValue}</p>
 			<div className="">Shelf</div>
 			<button className="h-12 bg-rose-600" onClick={() => setMyValue((prev) => prev + 1)}>
-				Click
+				Click me
 			</button>
 		</>
 	);
